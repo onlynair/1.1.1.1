@@ -1077,7 +1077,7 @@ def run():
         message = ''
         for i in table:
             message += f"[{i[0].replace(' ',''):<9}]: {i[1]:<6.2f} (＋{i[2]:<4.2f}) {i[3]:<7.2f} {i[4]}\\30\n"
-        message += "⭕tips:第30天需要手动签到 by zero_s1, (*^_^*)欢迎打赏 "
+        message += "⭕tips:第30天需要手动签到 "
         if len(table) <= 4:
             message = "【设备】| 当前剩余 | 今天| 历史| 连续签到\n"+message
 
